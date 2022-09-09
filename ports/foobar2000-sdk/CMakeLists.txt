@@ -29,7 +29,9 @@ file(GLOB SDK_HEADERS "foobar2000/SDK/*.h")
 add_library(SDK STATIC ${SDK_SOURCES})
 target_include_directories(SDK PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/foobar2000>
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/foobar2000/SDK>
     $<INSTALL_INTERFACE:include/foobar2000>
+    $<INSTALL_INTERFACE:include/foobar2000/SDK>
 )
 target_link_libraries(SDK PUBLIC pfc)
 target_sources(SDK PUBLIC FILE_SET HEADERS FILES ${SDK_HEADERS})

@@ -4,6 +4,10 @@
         "version-date": "2022-09-01",
         "port-version": 1,
         "git-tree": "6f5a422a6b03643a710354b64b8461b16a591313"
+      },{
+        "version-date": "2022-09-01",
+        "port-version": 2,
+        "git-tree": "b57008e1841c21356d3649f077ab9bf25c558c60"
       }
     ]
 }

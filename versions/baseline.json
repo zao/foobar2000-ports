@@ -2,7 +2,7 @@
     "default": {
         "foobar2000-sdk": {
             "baseline": "2022-09-01",
-            "port-version": 1
+            "port-version": 2
         }
     }
 }
