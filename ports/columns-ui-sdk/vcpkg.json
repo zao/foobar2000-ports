@@ -1,7 +1,7 @@
 {
   "name": "columns-ui-sdk",
   "version-semver": "7.0.0-beta1",
-  "port-version": 2,
+  "port-version": 3,
   "dependencies": [
     {
       "name": "vcpkg-cmake",
