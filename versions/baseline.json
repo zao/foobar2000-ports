@@ -2,7 +2,7 @@
     "default": {
         "columns-ui-sdk": {
             "baseline": "7.0.0-beta1",
-            "port-version": 2
+            "port-version": 0
         },
         "foobar2000-sdk": {
             "baseline": "2022-09-01",
