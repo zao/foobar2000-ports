@@ -1,7 +1,7 @@
 {
   "name": "foobar2000-sdk",
-  "version-date": "2022-09-01",
-  "port-version": 2,
+  "version-date": "2022-10-20",
+  "port-version": 0,
   "dependencies": [
     {
       "name": "vcpkg-cmake",

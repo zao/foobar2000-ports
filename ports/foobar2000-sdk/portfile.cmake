@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/zao/foobar2000-SDK
-    REF 9ac7a4f82c4f1ef317604313e31c8eede6f4a021
+    REF f27a676212ef4c1b16638a17302ff31b0f95b4f3
 )
 
 file(COPY ${CMAKE_CURRENT_LIST_DIR}/CMakeLists.txt DESTINATION ${SOURCE_PATH})
